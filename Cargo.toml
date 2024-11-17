@@ -11,4 +11,4 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
-dioxus = { path = "../../dioxus/packages/dioxus" }
+dioxus = { version = "0.6.0-alpha.5" }
