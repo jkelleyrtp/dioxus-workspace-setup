@@ -1,0 +1,17 @@
+[package]
+name = "rpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dioxus = { workspace = true, features = ["fullstack"] }
+
+tokio = { version = "1.0", features = ["full"], optional = true }
+
+[features]
+default = []
+client = []
+server = [
+    "dioxus/server",
+    "dep:tokio",
+]

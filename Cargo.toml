@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "crates/admin-dashboard",
+    "crates/customer-portal",
+    "crates/desktop",
+    "crates/mobile",
+    "crates/rpc",
+    "crates/ui",
+    "crates/ui2",
+]
+resolver = "2"
+
+[workspace.dependencies]
+dioxus = { path = "../../dioxus/packages/dioxus" }

@@ -1,0 +1,10 @@
+[package]
+name = "ui2"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+dioxus = { workspace = true }
+
+[lib]
+crate-type = ["dylib", "rlib"]
